@@ -11,7 +11,7 @@ body{
 /*container*/
 #container{
   display: grid;
-  grid-template-rows: 9.9vh 50vh 40vh 320vh 55vh 20vh;
+  grid-template-rows: 9.9vh 50vh 40vh 300vh 55vh 20vh;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-areas:
     "header header header header"
@@ -222,7 +222,7 @@ main{
   display: grid;
   grid-gap: 50px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 20vh 50vh 70vh 70vh 70vh;
+  grid-template-rows: 20vh 50vh 70vh 70vh 80vh;
   text-align: center;
 }
 
